@@ -1,0 +1,21 @@
+<div class="container">
+    
+    <div class="row">
+
+        <div class="col-lg-4">
+
+        </div>
+
+        <div class="col-lg-8" *ngFor="let User Of users">
+              <p style="text-size-adjust: 10px;">I'm {{User.firstname}} {{User.lastname}} and Im above {{User.age}} years and<br>
+            you can send your emails to {{User.email}}<br>
+            . I live in the state of<br>{{User.state}}.My hobbies are {{User.tag}}.<br>
+               And please send a newsletters. Please<br> reach out to me on my phone number {{User.phone}} </p>  . 
+             
+           
+          
+           <button style="background-color: green; color: white;">I Agree</button>
+        </div>
+
+    </div>
+</div>
